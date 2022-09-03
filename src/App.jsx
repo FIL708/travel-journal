@@ -4,10 +4,20 @@ import Card from "./components/Card"
 import dataForCards from "./data"
 
 function App() {
+
+  const cards = dataForCards.map(item => (
+      <Card 
+         key={item.id}
+         {...item}
+      />
+  ))
+
   return (
     <div className="App">
       <Header />
-      <Card {...dataForCards[0]}/>
+      <section className='cards--list'>
+         {cards}
+      </section>
     </div>
   )
 }
