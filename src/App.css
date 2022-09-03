@@ -44,3 +44,16 @@ header {
 .card--location {
   letter-spacing: 2.5px;
 }
+
+.card--mapsLink {
+  all:unset;
+  margin-left: 15px;
+  color: #918E9B;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card--mapsLink:hover {
+  color: inherit;
+}
