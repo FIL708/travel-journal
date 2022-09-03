@@ -22,6 +22,7 @@ header {
 .card {
   display: flex;
   align-items: center;
+  padding: 30px;
 }
 
 .card--img {
@@ -31,12 +32,15 @@ header {
   border-radius: 5px;
 }
 
+.card--textContainer {
+  margin-left: 20px;
+}
+
 .card--locationContainer {
-  font-size: 10.5px;
+  font-size: 10.24px;
 }
 
 .card--locationIcon {
-  margin-right: 1px;
   color: #F55A5A;
   font-size: 12px;
 }
@@ -65,7 +69,13 @@ header {
 
 .card--date {
   margin-bottom: 6px;
-  font-size: 10.5px;
+  font-size: 10.24px;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.card--text {
+  max-width: 326px;
+  font-size: 10.24px;
+  line-height: 150%;
 }
