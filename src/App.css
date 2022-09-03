@@ -24,5 +24,8 @@ header {
 }
 
 .card--img {
-  
+  object-fit: cover;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
 }

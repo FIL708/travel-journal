@@ -6,8 +6,6 @@ export default function Card(props) {
             <img 
                 src={props.imageUrl} 
                 alt={props.title} 
-                width="125px"
-                height="168px"
                 loading="lazy"
                 className="card--img"
                 />
