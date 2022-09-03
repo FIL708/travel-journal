@@ -10,9 +10,9 @@ export default function Card(props) {
                 className="card--img"
                 />
             <div className="card--textContainer">
-                <div>
-                    <IoLocationSharp className="card--locationIcon"/>
+                <div className="card--locationContainer">
                     <span className="card--location">
+                        <IoLocationSharp className="card--locationIcon"/>
                         {props.location.toUpperCase()}
                     </span>
                     <a 

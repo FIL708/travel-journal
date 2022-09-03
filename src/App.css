@@ -21,6 +21,7 @@ header {
 
 .card {
   display: flex;
+  align-items: center;
 }
 
 .card--img {
@@ -28,4 +29,18 @@ header {
   width: 125px;
   height: 168px;
   border-radius: 5px;
+}
+
+.card--locationContainer {
+  font-size: 10.5px;
+}
+
+.card--locationIcon {
+  margin-right: 1px;
+  color: #F55A5A;
+  font-size: 12px;
+}
+
+.card--location {
+  letter-spacing: 2.5px;
 }
